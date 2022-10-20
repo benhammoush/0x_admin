@@ -414,7 +414,7 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                   />
                 </div>
               </BodyCard>
-              {order.cart.context.CryptoPayment ? (
+              {order.cart.context?.CryptoPayment ? (
                 <BodyCard
                   className={"w-full mb-4 min-h-0 h-auto"}
                   title="Payment"
@@ -433,28 +433,28 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                     <div className="inter-small-semibold text-grey-90">
                       From
                       <div className="inter-small-regular text-grey-50"> 
-                       {order.cart.context.CryptoPayment[4]}
+                       {order.cart.context?.CryptoPayment[4]}
                        </div>
                     </div>
 
                     <div className="inter-small-semibold text-grey-90">
                       To 
                       <div className="inter-small-regular text-grey-50"> 
-                      {order.cart.context.CryptoPayment[5]}
+                      {order.cart.context?.CryptoPayment[5]}
                       </div>
                     </div>
 
                     <div className="inter-small-semibold text-grey-90">
                       Network
                       <div className="inter-small-regular text-grey-50"> 
-                       {order.cart.context.CryptoPayment[0]}
+                       {order.cart.context?.CryptoPayment[0]}
                        </div>
                     </div>
 
                     <div className="inter-small-semibold text-grey-90">
                       Hash 
                       <div className="inter-small-regular text-grey-50">  
-                      {order.cart.context.CryptoPayment[1]}
+                      {order.cart.context?.CryptoPayment[1]}
                     </div>
                     
                     </div>
@@ -464,10 +464,10 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                       </div>
                       <div className="flex">
                         <div className="mr-3 inter-small-semibold text-grey-90">
-                          {order.cart.context.CryptoPayment[2]}
+                          {order.cart.context?.CryptoPayment[2]}
                         </div>
                         <div className="inter-small-regular text-grey-50">
-                          {order.cart.context.CryptoPayment[3]}
+                          {order.cart.context?.CryptoPayment[3]}
                         </div>
                       </div>
                     </div>
