@@ -414,7 +414,7 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                   />
                 </div>
               </BodyCard>
-              {order.cart.context?.CryptoPayment ? (
+              {order.cart.context && order.cart.context.CryptoPayment ? (
                 <BodyCard
                   className={"w-full mb-4 min-h-0 h-auto"}
                   title="Payment"
