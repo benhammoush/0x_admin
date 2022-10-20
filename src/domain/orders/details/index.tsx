@@ -414,7 +414,9 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                   />
                 </div>
               </BodyCard>
-              {order.cart.context != undefined && order.cart.context.CryptoPayment != undefined ? (
+
+
+              {/* {order.cart.context != undefined && order.cart.context.CryptoPayment != undefined ? (
                 <BodyCard
                   className={"w-full mb-4 min-h-0 h-auto"}
                   title="Payment"
@@ -473,7 +475,9 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                     </div>
                   </div>
                 </BodyCard>
-              ) : (
+              ) :  */}
+              
+              (
                 <BodyCard
                   className={"w-full mb-4 min-h-0 h-auto"}
                   title="Payment"
@@ -543,7 +547,10 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                     </div>
                   </div>
                 </BodyCard>
-              )}
+              )
+              
+              
+              {/* } */}
 
               <BodyCard
                 className={"w-full mb-4 min-h-0 h-auto"}
