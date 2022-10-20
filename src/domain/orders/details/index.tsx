@@ -261,6 +261,8 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
     })
   }
 
+  console.log(order)
+
   return (
     <div>
       <Breadcrumb
