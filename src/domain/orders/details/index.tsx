@@ -1,24 +1,12 @@
-// import { Address, ClaimOrder, Fulfillment, Swap } from "@medusajs/medusa"
-// import Medusa from "@medusajs/medusa-js"
-// import {
-//   useAdminCancelOrder,
-//   useAdminCapturePayment,
-//   useAdminOrder,
-//   useAdminRegion,
-//   useAdminUpdateOrder,
-// } from "medusa-react"
-
-import { Address, ClaimOrder, Fulfillment, Swap } from "medusacartorder/medusa"
-import Medusa from "medusacartorder/medusa-js"
+import { Address, ClaimOrder, Fulfillment, Swap } from "@medusajs/medusa"
+import Medusa from "@medusajs/medusa-js"
 import {
   useAdminCancelOrder,
   useAdminCapturePayment,
   useAdminOrder,
   useAdminRegion,
   useAdminUpdateOrder,
-} from "medusareactcartorder/dist/index"
-
-
+} from "medusa-react"
 import { RouteComponentProps } from "@reach/router"
 import { navigate } from "gatsby"
 import { capitalize, sum } from "lodash"
