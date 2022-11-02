@@ -7,7 +7,7 @@ const LoginLayout = ({ children }) => {
         <div
           className="flex flex-col items-center"
           style={{
-            background: "radial-gradient(at center center, rgb(56, 189, 248), rgb(103, 232, 249))",
+            background: "radial-gradient(at center center, rgb(56, 189, 248), rgb(59, 130, 246))",
           }}
         >
           {children}
