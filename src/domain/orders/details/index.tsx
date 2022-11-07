@@ -415,6 +415,7 @@ const OrderDetails = ({ id }: OrderDetailProps) => {
                 </div>
               </BodyCard>
 
+              {console.log(order)}
 
               {order.cart.context != undefined && order.cart.context.CryptoPayment != undefined ? (
                 <BodyCard
